@@ -1,0 +1,165 @@
+.main
+  .container
+    display: flex
+    flex-direction: column
+
+.wrapper-main
+  display: flex
+  flex-direction: column
+  gap: 90px
+
+.main-background
+  background-image: url('../img/masters/bg.svg')
+  background-size: cover
+  background-position: center
+  object-fit: cover
+  overflow: hidden
+  position: relative
+  min-width: 100%
+  height: 420px
+  padding: 40px 20px 20px 20px
+  +sm
+    padding: 40px 50px 63px 50px
+
+
+.main-title__info
+  font-family: Playfair Display, serif
+  max-width: 707px
+  font-weight: 900
+  line-height: 1
+  letter-spacing: 0
+  text-align: center
+  font-size: 30px
+  +bg
+    text-align: left
+    font-size: 40px
+
+
+
+.main-information
+  display: flex
+  flex-direction: column
+  gap: 32px
+  font-size: 40px
+  .main-text
+    +md
+      font-size: 70px
+
+
+//=======  master ========================================
+.master-block
+  display: flex
+  flex-direction: column
+  gap: 20px
+
+.master-images
+  display: flex
+  flex-direction: row
+  gap: 20px
+  flex-wrap: wrap
+  justify-content: center
+  +bg
+    flex-wrap: nowrap
+    justify-content: space-between
+
+.master-images
+  .additional-img__mini
+    flex-wrap: wrap
+    +s
+      flex-wrap: nowrap
+
+//=== master direct
+.masters
+  display: flex
+  justify-content: space-between
+
+.master
+  display: flex
+  background: #251D1A
+
+.master-main
+  display: flex
+  gap: 0
+  justify-content: space-between
+  align-items: center
+  width: 100%
+  flex-wrap: wrap
+  +md
+    flex-wrap: nowrap
+    gap: 20px
+
+.master-direct
+  display: flex
+  gap: 20px
+  align-items: center
+  flex-wrap: wrap
+  padding: 20px 20px 0 20px
+  +sm
+    flex-wrap: nowrap
+    padding: 0
+  +s
+    justify-content: center
+
+
+
+.master-name
+  h2
+    max-width: 180px
+    font-family: Fira Sans, serif
+    font-size: 48px
+    font-weight: 700
+    line-height: 1.25
+    letter-spacing: 0
+
+
+.master-info
+  display: flex
+  flex-direction: row
+  gap: 20px
+  flex-wrap: wrap
+  padding: 20px
+  justify-content: center
+  +md
+    justify-content: space-between
+
+
+.master-text
+  font-family: Fira Sans, serif
+  font-size: 18px
+  font-weight: 400
+  line-height: 1.5
+  letter-spacing: 0
+  color: #B7AAA2
+  max-width: 100%
+  +md
+    max-width: 280px
+
+//==== Button master
+.button__master
+  display: flex
+  align-items: center
+  justify-content: center
+  gap: 10px
+  margin-top: 20px
+
+.master-btn
+  background: #FF6E40
+  min-width: 258px
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 18.5px 0
+
+.master-link
+  //color: #fff
+  display: inline-block
+  align-items: center
+  gap: 10px
+
+  font-family: Playfair Display, serif
+  font-size: 20px
+  font-weight: 700
+  line-height: 1.5
+  letter-spacing: 0
+
+

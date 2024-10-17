@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap")
+.main
+  .container
+    .main-block
+      overflow-x: hidden
+      position: relative
+      min-width: 100%
+
+.main-block
+  background-image: url('../img/main.svg')
+  background-size: cover
+  background-position: center
+  object-fit: cover
+  padding: 40px 0
+  position: relative
+  z-index: 5
+  height: 1000px
+  +small
+    height: 400px
+  +medium
+    height: 600px
+  +big
+    height: 800px
+
+.mini__container
+  height: 100%
+
+.main-header
+  display: flex
+  align-items: end
+  flex-wrap: wrap
+  justify-content: center
+  gap: 20px
+  +bgg
+    justify-content: space-between
+  
+.main-text
+  h2
+    font-size: 40px
+    line-height: 1.1
+    font-weight: 900
+    max-width: 580px
+    color: #fff
+    font-family: Playfair Display, serif
+    text-align: center
+    padding: 0 20px
+    +sm
+      font-size: 70px
+    +bg
+      text-align: left
+    +bgg
+      font-size: 60px
+
+.info-block
+  display: flex
+  flex-direction: column
+  margin: 0 0 6px 0
+  padding-right: 0
+  gap: 20px
+  +bgg
+    padding-right: 106px
+
+.main-info
+  display: flex
+  text-transform: uppercase
+  justify-content: left
+  +big
+    justify-content: center
+  a
+    display: block
+    color: #ffffff
+    padding: 10px 25px
+    font-size: 14px
+    border: 1px solid #fff
+    font-family: Playfair Display,serif
+
+.main-info__text
+  font-size: 18px
+  color: $colorText
+  font-weight: 400
+  line-height: 27px
+
+.main-bottom
+  margin-bottom: 30px
+//========  main-btn   ===============================================
+
+.main-btn
+  max-width: 254px
+  display: flex
+  align-items: center
+  justify-content: center
+  background: #FF6E40
+  padding: 18.5px 0
+
+.main-btn__black
+  min-width: 234px
+  display: flex
+  align-items: center
+  justify-content: center
+  background: #000
+  padding: 18.5px 0
+
+.main-link
+  color: #fff
+  font-size: 20px
+  font-weight: 700
+  font-family: Playfair Display, serif
+
+
+
+
+
+
+
+
+

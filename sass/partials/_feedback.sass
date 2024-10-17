@@ -1,0 +1,122 @@
+.feedback
+  position: relative
+
+.feedback-header
+  top: -30%
+  position: absolute
+  display: flex
+  flex-direction: column
+  z-index: 4
+  padding: 18px 10px 45px 30px
+  background: #251D1A
+  width: 92%
+  box-shadow: 0px 9px 34px rgba(58, 68, 83, 0.24)
+  border: 1px solid #fff
+  +sm
+    top: 10%
+    width: 390px
+    border: none
+  +bg
+    padding: 25px 10px 60px 40px
+
+.feedback-header__map
+  top: 10%
+  position: absolute
+  display: flex
+  flex-direction: column
+  z-index: 4
+  padding: 18px 10px 45px 30px
+  background: #251D1A
+  width: 92%
+  box-shadow: 0px 9px 34px rgba(58, 68, 83, 0.24)
+  border: 1px solid #fff
+  +sm
+    top: 10%
+    width: 390px
+    border: none
+  +bg
+    padding: 25px 10px 60px 40px
+
+
+.feedback-title
+  padding-bottom: 24px
+  font-family: Fira Sans, serif
+  font-size: 48px
+  font-weight: 700
+  line-height: 60px
+
+.feedback-registr
+  display: flex
+  flex-direction: column
+  gap: 16px
+
+.contact-block
+  display: flex
+  gap: 9px
+
+.submit-btn
+  margin: 8px 0 0 0
+  background: #CD0000
+  border-radius: 4px
+  min-height: 44px
+  padding: 12px 0
+  color: #fff
+  transition: all 300ms
+  &:hover
+    background: #CD0000
+
+//====  map  ==============================
+.map
+  width: 100%
+  height: 650px
+  position: relative
+  z-index: 3
+
+.map iframe
+  position: absolute
+  left: 0
+  right: 0
+  top: 0
+  bottom: 0
+  width: 100%
+  height: 100%
+  overflow-y: scroll
+
+//======  Contact  ===================================
+.contact
+  display: flex
+  flex-direction: column
+  flex-wrap: wrap
+  gap: 25px
+
+.contact-item
+  display: flex
+  align-items: center
+  flex-wrap: wrap
+  gap: 10px
+  color: #fff
+  transition: 300ms ease ease-in-out
+  &:hover
+    .contact-icon__big
+      background: #fff
+    color: $colorButton
+
+.contact-icon__big
+  width: 46px
+  height: 46px
+  border-radius: 50%
+  background: $colorButton
+  display: flex
+  justify-content: center
+  align-items: center
+  font-size: 18px
+
+.contact-information
+  padding-left: 16px
+  font-family: Montserrat, serif
+  font-size: 17px
+  font-weight: 400
+  line-height: 30px
+  color: #FFFFFF
+
+

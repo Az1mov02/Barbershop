@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5eff4e99-3089-474d-bd74-4e1be8f8cd26" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2cR7OlM2WHMtj82eAkxoftNVhvl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5eff4e99-3089-474d-bd74-4e1be8f8cd26" name="Changes" comment="" />
+      <created>1708062507401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708062507401</updated>
+      <workItem from="1708062508734" duration="1908000" />
+      <workItem from="1708078156625" duration="18567000" />
+      <workItem from="1708186613165" duration="14289000" />
+      <workItem from="1708262653697" duration="807000" />
+      <workItem from="1708320797805" duration="912000" />
+      <workItem from="1708322576157" duration="2580000" />
+      <workItem from="1708403467829" duration="6850000" />
+      <workItem from="1708448817668" duration="11430000" />
+      <workItem from="1708587789705" duration="2189000" />
+      <workItem from="1708928709960" duration="1170000" />
+      <workItem from="1709098689587" duration="2962000" />
+      <workItem from="1709113356795" duration="8211000" />
+      <workItem from="1709184477419" duration="4304000" />
+      <workItem from="1709220262318" duration="6557000" />
+      <workItem from="1709271863872" duration="1333000" />
+      <workItem from="1709287090484" duration="1253000" />
+      <workItem from="1709289468262" duration="149000" />
+      <workItem from="1709526505604" duration="5766000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

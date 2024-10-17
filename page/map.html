@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Map</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://kit.fontawesome.com/82911f3187.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../Fonts/fontawesome/css/all.min.css">
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="header-top">
+      <div class="logo-icon">
+        <a href="../index.html">
+          <img src="../img/logo.svg" alt="Logo">
+        </a>
+      </div>
+      <div class="burger-menu">
+        <span></span>
+      </div>
+      <nav class="header-menu menu">
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a href="../index.html" class="menu-link">О нас</a>
+          </li>
+          <li class="menu-item">
+            <a href="/page/masters.html" class="menu-link">Наши мастера</a>
+          </li>
+          <li class="menu-item">
+            <a href="/page/portfolio.html" class="menu-link">Портфолио</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">Отзывы</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-contacts">
+        <a href="#" class="contact-block">
+          <div class="contact-info active_map">Джалал-Абад,<br>улица Тарсус, 1А</div>
+          <div class="contact-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+        </a>
+        <a href="#" class="contact-block">
+          <div class="contact-info active_map"><p>+996(500) 135-355</p>Жалал-Абад от 9:00 до 21:00</div>
+          <div class="contact-icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="main">
+
+  <div class="feedback">
+    <div class="feedback__container container">
+      <div class="feedback-header__map header-block">
+        <h2 class="feedback-title">Contacts</h2>
+        <form action="#" class="feedback-registr">
+          <div class="contact">
+            <a href="#" class="contact-item">
+              <div class="contact-icon__big">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-information">+996(500) 135-355</div>
+            </a>
+            <a href="#" class="contact-item">
+              <div class="contact-icon__big">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-information">raatbek.azimov1712@gmail.com</div>
+            </a>
+            <a href="/page/masters.html" class="contact-item">
+              <div class="contact-icon__big">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-information">Джалал-Абад, улица Тарсус, 1А</div>
+            </a>
+            <a href="#" class="contact-item">
+              <div class="contact-icon__big">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div class="contact-information">Кыргызстан от 9:00 до 21:00</div>
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="map" style="z-index: 0;">
+      <iframe style=""
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3A465e4b50b7380b69697fa2e93c28e801faa7c86ce4e7c55c8ffe3881a904dc09&amp;source=constructor"
+          width="500" height="400"></iframe>
+    </div>
+  </div>
+  <div class="consultation">
+    <div  style = "z-index: 5; margin-top: -70px; position: relative;" class="container">
+      <div class="consultation-main">
+        <div class="consultation-info">
+          <h2 class="consultation-title">Получите консультацию у наших опытных парикмахеров</h2>
+          <p class="consultation-text">Развернуть подробную информацию о призыве к действию</p>
+        </div>
+        <form action="#" class="consultation-form">
+          <div class="consultation-contact">
+            <label>
+              <input type="tel" name="number" id="phone" placeholder="+996(_ _ _) __-__-__" pattern="+996[0-9]{3}-[0-9]{3}" class="consultation-input">
+            </label>
+          </div>
+          <div class="consultation-contact">
+            <label>
+              <input type="email" name="email" id="mail" placeholder="Email" class="consultation-input">
+            </label>
+          </div>
+          <div class="main-btn__black" style="background: #000">
+            <a href="#" class="main-link">Book now</a>
+          </div>
+        </form>
+        <div class="consultation-checkbox">
+          <div class="option">
+            <input type="checkbox" class="checkbox-btn" id="btn-click" name="click"/>
+            <label for="btn-click" class="checkbox-label">Нажимая на кнопку, вы соглашаетесь с условиями обработки персональных данных</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-blocks">
+      <div class="footer-info">© All rights reserved</div>
+      <div class="social-buttons">
+        <ul>
+          <li><a href="#"><i class="fa-brands fa-instagram instagram"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-whatsapp whatsapp"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter twitter"></i></a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</footer>
+</body>
+<script src="../js/main.js"></script>
+</html>

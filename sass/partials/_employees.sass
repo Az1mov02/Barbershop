@@ -1,0 +1,57 @@
+.employees
+  padding: 0 0 120px 0
+
+.employees-body
+  padding: 60px 0 0 0
+  display: flex
+  flex-wrap: wrap
+  margin: 0 -30px -30px
+  +sma
+    justify-content: center
+
+
+.employees-column
+  display: flex
+  flex: 0 1 25%
+  padding: 0 10px
+  margin-bottom: 30px
+
+.employees-item
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  gap: 24px
+  max-width: 277px
+
+.employees-img
+  overflow: hidden
+
+.employees-img img
+  transition: transform 0.25s
+
+.employees-img:hover img
+  transform: scale(1.1)
+
+.employees-item__in
+  display: flex
+  flex-direction: column
+  gap: 24px
+
+
+.employees-title
+  font-size: 14px
+  font-weight: 700
+  line-height: 21px
+
+.employees-text
+  font-size: 16px
+  font-weight: 400
+  line-height: 24px
+
+
+.employees-link
+  font-size: 14px
+  font-weight: 400
+  line-height: 19px
+  color: #FF6E40
+
